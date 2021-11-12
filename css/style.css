@@ -1,0 +1,256 @@
+/* Resetting CSS styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-decoration: none;
+}
+
+/* Navigation */
+
+nav {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  padding: 0 5%;
+  z-index: 9;
+  top: 0;
+  background-color: transparent;
+  transition: background-color 1s, padding 1s;
+}
+nav a {
+  color: white;
+  padding-left: 25px;
+}
+.stated {
+  display: inline-block;
+  color: white;
+}
+.navlink1:hover {
+  color: white;
+}
+/* Landing Page */
+.header-section {
+  position: relative;
+  height: 60vh;
+}
+.header-intro {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.header-intro img {
+  position: absolute;
+  top:10;
+  left: 0;
+  width: 105%;
+}
+.filter {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0,0, .4);
+}
+.title-intro {
+  position: relative;
+  color: white;
+}
+.title-intro h1 {
+  font-size: 1.5rem;
+}
+.hi {
+  font-size: 9rem;
+}
+
+/* This is the about section */
+
+.about {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.about-image {
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.about-image img {
+  width: 100%;
+}
+.about-description {
+  width: 40%;
+  padding: 5%;
+}
+.about-description p {
+  font-size: 1.4rem;
+}
+
+/* Portfolio */
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f8f9fa;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.projects h1 {
+  font-size: 3rem;
+  margin-bottom: 100px;
+}
+.container {
+  height: 40vh;
+  width: 80%;
+  max-width: 1250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+.thisProject a {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  /* border-top: 1px solid black; */
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.thisProject img {
+  height: 110%;
+  width: 100%;
+}
+
+/* Resume */
+.resume {
+  margin-top: 3rem;
+  text-align: center;
+  justify-content: center;
+}
+
+.resume h1 {
+  font-size: 3rem;
+}
+.thisProject {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-top: 3px solid black;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 30%;
+  overflow: hidden;
+}
+
+.con {
+  height: 40vh;
+  max-width: 1250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.thisResume {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 30%;
+  overflow: hidden;
+}
+.thisResume img {
+  height: 100%;
+  width: 100%;
+}
+
+/* Contact */
+.contact {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-details,
+.contact-location {
+  height: 80%;
+  width: 30%;
+  max-width: 500px;
+}
+.contact-details {
+  padding: 30px;
+  background-color: darkslategray;
+  color: white;
+}
+.contact-details h1 {
+  font-size: 3rem;
+}
+form input {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.submit-input {
+  font-size: 16px;
+  padding: 15px 30px;
+  background: #f69314;
+  border-radius: 30px;
+  border: none;
+  color: #fff;
+}
+.contact-location {
+  border: solid 3px darkslategray;
+}
+iframe {
+  height: 100%;
+  width: 100%;
+}
+label {
+  display: block;
+}
+.name {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.box, .msg{
+  color: #f69314;
+}
+.extra {
+  font-size: 22px;
+}
+.msg{
+  padding-bottom: 25px;
+}
+
+/* Footer */
+.footer {
+  padding: 10px;
+  background-color: darkslategray;
+  color: white;
+  text-align: center;
+}
